@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Future Forward | Career Design Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['"JetBrains Mono"', 'monospace'],
+            },
+            colors: {
+              'brand-mauve': '#A38995',
+              'brand-slate': '#4A5568',
+              'brand-orange': '#ED8936',
+              'brand-red': '#E53E3E',
+              'brand-blue': '#2B6CB0',
+              'dark-blue': '#1A202C',
+              'off-white': '#F7FAFC',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #F7FAFC;
+        color: #1A202C;
+      }
+      .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      .brand-gradient-1 { background: linear-gradient(135deg, #A38995 0%, #E53E3E 100%); }
+      .brand-gradient-2 { background: linear-gradient(135deg, #CBD5E0 0%, #2B6CB0 100%); }
+      .brand-gradient-3 { background: linear-gradient(135deg, #ECC94B 0%, #ED8936 100%); }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.1/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.32.0",
+    "react/": "https://esm.sh/react@^19.2.1/",
+    "react": "https://esm.sh/react@^19.2.1",
+    "lucide-react": "https://esm.sh/lucide-react@^0.559.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
